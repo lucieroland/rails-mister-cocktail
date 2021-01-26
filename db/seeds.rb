@@ -12,9 +12,9 @@ Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
 
 
-puts "Cleaning database..."
-Dose.destroy_all
+# puts "Cleaning database..."
+# Dose.destroy_all
 
 
-puts "Cleaning database..."
-Cocktail.destroy_all
+# puts "Cleaning database..."
+# Cocktail.destroy_all

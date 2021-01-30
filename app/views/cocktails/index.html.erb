@@ -6,6 +6,10 @@
       <ul>
         <li>
          <%= link_to cocktail.name, cocktail_path(cocktail)  %>
+       <%=   cl_image_tag("v1611826484/r70ili0jabkyeldvgl7n.jpg",
+      width: 400, height: 300, crop: :fill) %>
+      <%=  cl_image_tag("v1611826488/sqpgyxgabsruxiolltho.jpg",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
         </li>
       </ul>
     <% end %>
